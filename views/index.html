@@ -1,4 +1,4 @@
-<!-- This is a static file -->
+        
 <!-- served from your routes in server.js -->
 
 <!-- You might want to try something fancier: -->
@@ -27,11 +27,11 @@
        <h1>
         Load a file to find out the size.
       </h1>
-      <form>
+      <form action="/upload"  enctype="multipart/form-data" method="POST">
+
+          <input type="file"  name="goFile" >
         
-          <input type="file" action="" name="file-to-up" method="POST">
-        
-          <input type="submit">
+          <input type="submit" value="Query Size">
       </form>
 
     </main>
@@ -41,8 +41,8 @@
     <!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
             integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
-            crossorigin="anonymous"></script>
-    <script src="/client.js"></script>
+            crossorigin="an/
+         ient.js"></script>
 
   </body>
 </html>
